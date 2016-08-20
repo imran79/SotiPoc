@@ -1,0 +1,5 @@
+C:\Users\imran-laptop\Downloads\New folder\TestWeb\TestWeb.Infrastructure\bin\Debug\TestWeb.Infrastructure.dll
+C:\Users\imran-laptop\Downloads\New folder\TestWeb\TestWeb.Infrastructure\bin\Debug\TestWeb.Infrastructure.pdb
+C:\Users\imran-laptop\Downloads\New folder\TestWeb\TestWeb.Infrastructure\obj\Debug\TestWeb.Infrastructure.dll
+C:\Users\imran-laptop\Downloads\New folder\TestWeb\TestWeb.Infrastructure\obj\Debug\TestWeb.Infrastructure.pdb
+C:\Users\imran-laptop\Downloads\New folder\TestWeb\TestWeb.Infrastructure\obj\Debug\TestWeb.Infrastructure.csprojResolveAssemblyReference.cache

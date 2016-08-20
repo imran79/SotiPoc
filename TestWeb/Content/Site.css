@@ -1,0 +1,13 @@
+﻿body {
+  padding: 1rem 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+.table-wrap {
+  position: relative;
+  overflow: auto;
+  max-height: 345px;
+}

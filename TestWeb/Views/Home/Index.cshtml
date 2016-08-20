@@ -1,0 +1,72 @@
+﻿<div class="container" ng-app="productApp" ng-controller="productController">
+    <div class="page-header">
+        <h1>Products</h1>
+    </div>
+
+    <hr />
+
+    <div class='row'>
+        <div class='col-sm-8'>
+            <div class="table-wrap">
+                <table class='table table-striped table-bordered table-hover' id='productTable'>
+                    <colgroup>
+                        <col style="width: 1px" />
+                        <col style="width: ;" />
+                        <col style="width: 100px" />
+                        <col style="width: 100px" />
+                        <col style="width: 200px" />
+                    </colgroup>
+                    <thead class="thead-inverse">
+                        <tr>
+                            <th class="text-xs-center">Id</th>
+                            <th> Product Name</th>
+                            <th class="text-xs-center">Product Description</th>
+                            <th class="text-xs-center"></th>
+                        </tr>
+                    </thead>
+                    <tbody ng-repeat='product in products '>
+                        <tr ng-show='activeProductId === product.Id'>
+                            <td class="text-xs-center">
+                                <span>{{ product.Id }}</span>
+                            </td>
+                            <td class="text-xs-center">                               
+                                <input  type="text" ng-model="product.ProductName" />
+                            </td>
+                            <td class="text-xs-center">
+                                <input type="text" ng-model="product.Description" />                                
+                            </td>
+                            <td class="text-xs-center">
+                                <a class='btn btn-primary' href='' ng-click='update(product)'>Update</a>
+                            </td>
+                        </tr>
+                        <tr ng-show='activeProductId !== product.Id'>
+                            <td class="text-xs-center">{{ product.Id }}</td>                            
+                            <td class="text-xs-center">{{ product.ProductName }}</td>
+                            <td class="text-xs-center">{{ product.Description }}</td>
+                            <td class="text-xs-center">
+                                <a class='btn btn-primary' href='' ng-click='edit(product)'>Edit</a>
+                                <a class='btn btn-danger' href='' ng-click='delete(product)'>Delete</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class='col-sm-4'>
+            <h5>Adding Product</h5>
+            <form name='productForm' novalidate role='form'>
+                <div class='form-group'>
+                    <label for='name'> Product Name:</label>
+                    <input class='form-control' ng-model='newProduct.ProductName' id='ProductName' name='ProductName' type='text'>
+                </div>
+                <div class='form-group'>
+                    <label for='age'>Description</label>
+                    <input class='form-control' ng-model='newProduct.Description' id='Description' name='Description' type='text'>
+                </div>
+                <button class='btn btn-primary' ng-click='create(newProduct)' ng-disabled='productForm.$invalid'> Save </button>
+            </form>
+        </div>
+    </div>
+
+
+</div>

@@ -1,0 +1,10 @@
+C:\Users\imran-laptop\Downloads\New folder\TestWeb\TestWeb.DAL\bin\Debug\TestWeb.DAL.dll.config
+C:\Users\imran-laptop\Downloads\New folder\TestWeb\TestWeb.DAL\bin\Debug\TestWeb.DAL.dll
+C:\Users\imran-laptop\Downloads\New folder\TestWeb\TestWeb.DAL\bin\Debug\TestWeb.DAL.pdb
+C:\Users\imran-laptop\Downloads\New folder\TestWeb\TestWeb.DAL\bin\Debug\EntityFramework.dll
+C:\Users\imran-laptop\Downloads\New folder\TestWeb\TestWeb.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\imran-laptop\Downloads\New folder\TestWeb\TestWeb.DAL\bin\Debug\EntityFramework.xml
+C:\Users\imran-laptop\Downloads\New folder\TestWeb\TestWeb.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\imran-laptop\Downloads\New folder\TestWeb\TestWeb.DAL\obj\Debug\TestWeb.DAL.dll
+C:\Users\imran-laptop\Downloads\New folder\TestWeb\TestWeb.DAL\obj\Debug\TestWeb.DAL.pdb
+C:\Users\imran-laptop\Downloads\New folder\TestWeb\TestWeb.DAL\obj\Debug\TestWeb.DAL.csprojResolveAssemblyReference.cache
