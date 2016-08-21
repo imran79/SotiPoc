@@ -31,7 +31,7 @@ namespace TestWeb.Api.Api
             var productViews = new List<ProductView>();
             foreach (var product in products)
             {
-                productViews.Add(_entityMapperFactory.ProductViewFromProduct(product));
+                productViews.Add(_entityMapperFactory.ProductViewFromProduct(product,this.Url));
             }
             return Request.CreateResponse(HttpStatusCode.OK, productViews);
         }
@@ -41,7 +41,7 @@ namespace TestWeb.Api.Api
             var product = await _productRepository.GetById(id);
             if (product == null)
                 return Request.CreateResponse(HttpStatusCode.NotFound);
-            return Request.CreateResponse(HttpStatusCode.OK, _entityMapperFactory.ProductViewFromProduct(product));
+            return Request.CreateResponse(HttpStatusCode.OK, _entityMapperFactory.ProductViewFromProduct(product,this.Url));
         }
 
         public async Task<HttpResponseMessage> Post(ProductView productView)

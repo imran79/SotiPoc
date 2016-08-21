@@ -49,7 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Dal\Entities\Entity.cs" />
     <Compile Include="Dal\Entities\Product.cs" />
     <Compile Include="Dal\Repository\IProductRepository.cs" />
